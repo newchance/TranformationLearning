@@ -101,19 +101,6 @@ private:
     void CalBestRule(const TRules&, Rule&, int&);//get the best rule in the middle of all transformation rules
     void UpdateCorpus(const Rule&);//update the training corpus
     int CalCorpusSize();//calcualte the total words in the corpus
-//feature function
-/*    string PrecedingWordTag(const Sentence&, const int&);//the preceding word tag
-    string FollowingWordTag(const Sentence&, const int&);//the following word tag
-    string TwoBeforeTag(const Sentence&, const int&);//the word two tag before the current word
-    string TwoAfterTag(const Sentence&, const int&);//the word two tag after the current word
-    string OneOfTwoPrecedingWordsTag(const Sentence&, const int&);//One of the two preceding words tag
-    string OneOfTwoFollowingWordsTag(const Sentence&, const int&);//One of the two following words tag
-    string OneOfThreePrecedingWordsTag(const Sentence&, const int&);//One of the three preceding words tag
-    string OneOfThreeFollowingWordsTag(const Sentence&, const int&);//One of the three following words tag
-    string PrecedingFollowingWordsTag(const Sentence&, const int&);//the preceding word tag and the following word tag
-    string PreviousTwoTag(const Sentence&, const int&);//the previous tags
-    string AfterTwoTag(const Sentence&, const int&);
-*/    
 //data member
     WordTags*  _word_tags;
     Corpus _corpus;
